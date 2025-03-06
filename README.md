@@ -17,13 +17,11 @@ Por: Christian Millán
 
 # Contenido
 
-Unidad 1. Introducción
-
-1.1. Manipulación de datos
-1.2. Transformación de datos con Pandas
-1.3. Agregación de datos
-1.4. Slicing e indexado de datos
-1.5. Visualización de datos
+**Unidad 1.** [Introducción - Manipulación de datos](./1-intro/README.md)
+- [1.1. Transformación de datos con Pandas](./1-intro/1-1-sort_filter/README.md)
+- [1.3. Agregación de datos]()
+- 1.4. Slicing e indexado de datos
+- 1.5. Visualización de datos
 
 Unidad 2. Análisis Exploratorio de Datos
 

@@ -1,4 +1,6 @@
-# 1.1. Ordenamiento y Filtrado
+# 1.1. Transformación de datos 
+
+## Ordenamiento y Filtrado
 
 En análisis de datos, es común necesitar ordenar los datos en función de una o más columnas. La función `sort_values` de pandas nos permite realizar este ordenamiento de manera sencilla y eficiente.
 
@@ -66,9 +68,34 @@ df_nulos_first = df_con_nulos.sort_values(by='Edad', na_position='first')
 print(df_nulos_first)
 ```
 
-**Consideraciones Adicionale**s
+**Consideraciones Adicionales**
 
 - Para ordenamientos estables (manteniendo el orden relativo de elementos con el mismo valor), usa `kind='stable'`.
 - Si `inplace=True`, el DataFrame se modificará directamente sin necesidad de reasignarlo a una nueva variable.
 
-[`Example`](./code/1.2.-sort_filter.ipynb) - [`Ejercicio`](./code/1.2.-sort_filter_exercise.ipynb)
+## Crear nuevas columnas en un DataFrame
+
+Es posible agregar nuevas columnas a un DataFrame de diversas maneras en pandas.
+
+1. Asignando valores directamente
+
+```python
+df['Bonos'] = [5000, 7000, 4000, 6000]
+print(df)
+```
+
+2. Usando cálculos basados en otras columnas
+
+```python
+df['Salario Total'] = df['Salario'] + df['Bonos']
+print(df)
+```
+
+3. Agregar una columna con valores constantes
+
+```python
+df['Pais'] = 'México'
+print(df)
+```
+
+[`Ejemplo`](./code/1.1.-sort_filter.ipynb) - [`Reto`](./code/1.1.-sort_filter_exercise.ipynb)
