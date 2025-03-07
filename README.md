@@ -19,14 +19,14 @@ Por: Christian Millán
 
 **Unidad 1.** [Introducción - Manipulación de datos](./1-intro/README.md)
 - [1.1. Transformación de datos con Pandas](./1-intro/1-1-sort_filter/README.md)
-- [1.3. Agregación de datos]()
+- [1.3. Agregación de datos](./1-intro/1-2-aggregating_data/README.md)
 - 1.4. Slicing e indexado de datos
 - 1.5. Visualización de datos
 
 Unidad 2. Análisis Exploratorio de Datos
 
 2.1. Exploración inicial de los datos
-2.2. Analisis Univariado
+2.2. Análisis Univariado
 2.3. Análisis Bivariado
 2.4. Análisis Multivariado
 
