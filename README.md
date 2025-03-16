@@ -18,9 +18,9 @@ Por: Christian Millán
 ### Unidad 1. Introducción - Manipulación de datos
 
 - [1.1. Transformación de datos](./1-intro/1-1-sort_filter/README.md)
-- [1.3. Agregación de datos](./1-intro/1-2-aggregating_data/README.md)
-- [1.4. Segmentación de datos](./1-intro/1-3-slicing_indexing/README.md)
-- [1.5. Visualización de datos](./1-intro/1-4-visualization_data/README.md)
+- [1.2. Agregación de datos](./1-intro/1-2-aggregating_data/README.md)
+- [1.3. Segmentación e indexación de datos](./1-intro/1-3-slicing_indexing/README.md)
+- [1.4. Visualización de datos](./1-intro/1-4-visualization_data/README.md)
 
 ### Unidad 2. Análisis Exploratorio de Datos
 
