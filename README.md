@@ -11,6 +11,7 @@ Por: Christian Millán
 ## Objetivo
 
 > Al termino del curso, el alumno será capaz de aplicar técnicas avanzadas de análisis y visualización de datos para extraer información útil y presentar resultados de manera efectiva, facilitando lo toma de decisiones basadas en datos. - plan de estudios.
+>
 > El alumno será capaz de aplicar técnicas avanzadas de análisis y visualización de datos para extraer información útil y presentar resultados de manera efectiva.  - Millán.
 
 ## Contenido
